@@ -1,0 +1,164 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Mono", sans-serif;
+}
+body {
+background: #333;
+    padding-top: 5em;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    justify-content: center;
+}
+
+.container > .title {
+    color: #fff;
+    font-family: monospace;
+    font-size: 48px;
+    text-align: center;
+}
+
+.container > .title::before {
+    background-image: url("burger.png");
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    content: "";
+    margin-right: 20px;
+}
+
+.typewriter h1 {
+    color: #fff;
+    font-family: monospace;
+    overflow: hidden;
+    border-right: 0.15em solid orange;
+    white-space: nowrap;
+    margin: 20px auto;
+    letter-spacing: 0,15em;
+}
+
+.typewriter h1 {
+    animation: typing 3.5s steps(19, end), blink-caret 0.5s infinite;
+
+}
+
+@keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+  
+  @keyframes blink-caret {
+      from, to {
+          border-color: orange;
+      }
+      50% {
+          border-color: transparent;
+      }
+  }
+
+.form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+
+
+.column {
+    background-color: white;
+    width: 300px;
+    height: 500px;
+    border-radius: 15px;
+}
+
+.title {
+    font-family: monospace;
+    text-align: center;
+    color: rgb(111, 106, 106);
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+
+.username {
+
+    margin: 5%;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 1rem;
+    position: relative; left: 2rem;
+    border: transparent;
+    background-color: rgb(241, 240, 240);
+    padding-top:  0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    width: 13rem;
+    border-radius: 0.3rem;
+
+
+
+}
+
+.email {
+   
+    margin: 5%;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 1rem;
+    position: relative; left: 2rem;
+    border: transparent;
+    background-color: rgb(241, 240, 240);
+    padding-top:  0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    width: 13rem;
+    border-radius: 0.3rem;
+
+
+}
+
+.password {
+    margin: 5%;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 1rem;
+    position: relative; left: 2rem;
+    border: transparent;
+    background-color: rgb(241, 240, 240);
+    padding-top:  0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    width: 13rem;
+    border-radius: 0.3rem;
+
+}
+
+
+.submit {
+    font-family: monospace;
+    font-weight: bold;
+    margin-top: 1rem ;
+     position: relative; left: 2.5rem;
+        background-color: orange;
+        border-color: orange;
+        border-radius: 5px;
+        color: white;
+        height: 50px;
+        width: 220px;
+        font-size: 20px;
+        
+}
+
+
